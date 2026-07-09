@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/Zayden16/whoop-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/Zayden16/whoop-mcp-server/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/Zayden16/whoop-mcp-server)](https://github.com/Zayden16/whoop-mcp-server/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Zayden16/whoop-mcp-server)](https://goreportcard.com/report/github.com/Zayden16/whoop-mcp-server)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/Zayden16/whoop-mcp-server)](go.mod)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 MCP server for the official [Whoop API v2](https://developer.whoop.com), written in Go.
