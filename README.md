@@ -1,5 +1,10 @@
 # whoop-mcp-server
 
+[![CI](https://github.com/Zayden16/whoop-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/Zayden16/whoop-mcp-server/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/Zayden16/whoop-mcp-server)](https://github.com/Zayden16/whoop-mcp-server/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Zayden16/whoop-mcp-server)](https://goreportcard.com/report/github.com/Zayden16/whoop-mcp-server)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 MCP server for the official [Whoop API v2](https://developer.whoop.com), written in Go.
 Exposes cycles, recovery, sleep, workouts, and profile data as MCP tools.
 

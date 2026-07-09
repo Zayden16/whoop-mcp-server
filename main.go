@@ -16,6 +16,9 @@ import (
 
 const defaultAuthPort = 8719
 
+// version is injected at build time via -ldflags.
+var version = "dev"
+
 func main() {
 	clientID := os.Getenv("WHOOP_CLIENT_ID")
 	clientSecret := os.Getenv("WHOOP_CLIENT_SECRET")
@@ -41,7 +44,7 @@ func main() {
 		log.Fatalf("creating whoop client: %v", err)
 	}
 
-	server := mcp.NewServer(&mcp.Implementation{Name: "whoop", Version: "1.0.0"}, nil)
+	server := mcp.NewServer(&mcp.Implementation{Name: "whoop", Version: version}, nil)
 	registerTools(server, client)
 
 	if err := server.Run(context.Background(), &mcp.StdioTransport{}); err != nil {
