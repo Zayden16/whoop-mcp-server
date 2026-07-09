@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-  "name": "io.github.zayden16/whoop-mcp-server",
+  "name": "io.github.Zayden16/whoop-mcp-server",
   "description": "MCP server for the official Whoop API v2: cycles, recovery, sleep, workouts, and profile data",
   "repository": {
     "url": "https://github.com/Zayden16/whoop-mcp-server",
     "source": "github"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
