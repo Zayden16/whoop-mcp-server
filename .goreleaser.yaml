@@ -30,6 +30,16 @@ archives:
 checksum:
   name_template: checksums.txt
 
+brews:
+  - name: whoop-mcp-server
+    repository:
+      owner: Zayden16
+      name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
+    homepage: https://github.com/Zayden16/whoop-mcp-server
+    description: MCP server for the official Whoop API v2
+    license: MIT
+
 changelog:
   use: github
   sort: asc
