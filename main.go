@@ -11,7 +11,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/yazdanmusa/whoop-mcp-server/internal/whoop"
+	"github.com/Zayden16/whoop-mcp-server/internal/whoop"
 )
 
 const defaultAuthPort = 8719

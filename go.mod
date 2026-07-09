@@ -1,4 +1,4 @@
-module github.com/yazdanmusa/whoop-mcp-server
+module github.com/Zayden16/whoop-mcp-server
 
 go 1.26.1
 

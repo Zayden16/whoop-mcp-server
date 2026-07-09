@@ -31,7 +31,15 @@ At [developer.whoop.com](https://developer.whoop.com), create an app with:
 
 Note the client ID and client secret.
 
-### 2. Build
+### 2. Install
+
+Download a prebuilt binary from [Releases](https://github.com/Zayden16/whoop-mcp-server/releases), or:
+
+```sh
+go install github.com/Zayden16/whoop-mcp-server@latest
+```
+
+Or build from source:
 
 ```sh
 go build -o whoop-mcp-server .
