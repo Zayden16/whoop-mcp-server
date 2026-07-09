@@ -33,7 +33,13 @@ Note the client ID and client secret.
 
 ### 2. Install
 
-Download a prebuilt binary from [Releases](https://github.com/Zayden16/whoop-mcp-server/releases), or:
+Homebrew:
+
+```sh
+brew install zayden16/tap/whoop-mcp-server
+```
+
+Or download a prebuilt binary from [Releases](https://github.com/Zayden16/whoop-mcp-server/releases), or:
 
 ```sh
 go install github.com/Zayden16/whoop-mcp-server@latest
